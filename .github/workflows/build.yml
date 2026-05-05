@@ -16,7 +16,7 @@ jobs:
       - name: Build App
         run: |
           xcodebuild build \
-            -scheme "YourAppName" \
+            -scheme "Example App" \
             -sdk iphoneos \
             -derivedDataPath build \
             CODE_SIGNING_ALLOWED=NO \
